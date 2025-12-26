@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School</title>
+    <style>
+        /* Body & background */
+        body {
+            margin: 0;
+            font-family: rabar_020;
+            color: #e0f7fa;
+            text-align: center;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        /* Background image with blur and darkness */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('2.jpg') no-repeat center center/cover;
+            filter: blur(5px) brightness(0.2); 
+            z-index: -1 ;
+        }
+
+        /* Heading */
+        h1 {
+            background-color: rgba(0, 188, 212, 0.7);
+            color: black;
+            margin: 50px auto 40px auto; /* space above and below */
+            padding: 5px 15px;
+            display: block; /* force it to be on its own line */
+        }
+
+        /* Navigation */
+        nav {
+            display:  block; /* force on its own line */
+            background-color: rgba(30, 30, 30, 0.7);
+            text-align: center;
+            padding: 10px 20px;
+            margin: 30px auto; /* vertical spacing */
+            border-radius: 159px;
+            width: fit-content; /* only as wide as content */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #00bcd4;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        nav a:hover {
+            color: #80deea;
+        }
+
+        /* List items */
+        ul {
+            list-style-type: disc;
+            text-align: right;
+            direction: rtl;
+            padding-right: 20px;
+            margin-top: 77px;
+            margin-right: 77px;
+        }
+
+        ul li {
+            font-size: 55px;
+            margin: 44px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>ئەڤ سایتە بۆ قۆتابخانا گەلی یە</h1>
+
+    <!-- Navigation -->
+    <nav> 
+        <a href="pola12.html">پۆلا 12</a>
+        <a href="#">پۆلا 11</a>
+        <a href="#">پۆلا 10</a>
+    </nav>
+
+    <!-- List -->
+    <ul> 
+        <li>بۆ ب دەست ڤە ئینانا خشتێ پۆلا خۆ</li>
+        <li>کلیک ل سەر بەشی خۆلا خۆ بکە</li>
+    </ul>
+
+</body>
+</html>
